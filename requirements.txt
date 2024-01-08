@@ -1,0 +1,7 @@
+transformers
+torch
+sentencepiece
+accelerate
+bitsandbytes
+einops
+# Add any other necessary packages
