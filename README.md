@@ -1,9 +1,37 @@
-This is an example of a Lilypad Module. The Phi-2 module used in this is example can be found here on [huggingface](https://huggingface/amgadhasan/phi-2)
+# Phi-2 Module: A Guide for Lilypad Integration
 
-a Link to a demo video using this model can be found here on [youtube](https://x.com/Lilypad_Tech/status/1737685808860274820?s=20)
+This documentation provides detailed instructions on how to integrate and use the Phi-2 module with Lilypad technology. The Phi-2 module, as an example, can be explored further on [Hugging Face](https://huggingface/amgadhasan/phi-2).
 
-## Steps to relicate on Lilypad
+A practical demonstration of this module is available in a demo video on [YouTube](https://x.com/Lilypad_Tech/status/1737685808860274820?s=20).
 
-## Code snipbits
+## Steps to Replicate on Lilypad
 
-## Outline of modifications
+### Preparing the Environment
+1. **Clone the Repository**: Ensure that you are in the project directory after cloning the repository from GitHub.
+2. **Set Up Private Key**: Export your private key using the following command: 
+   ```bash
+   export WEB3_PRIVATE_KEY="YOUR-PRIVATE-KEY"
+3. **Docker Setup:** With Docker installed and the image available locally, you can run the model on your machine.
+4. **Running the Module Locally** Use the following command to run the model locally:
+
+5. ```bash
+   docker run --gpus all -t clone-phi2 "what is the acceleration of earth's gravity?"
+You can use your own prompt of course
+
+   ![Screenshot from 2024-01-08 23-37-14](https://github.com/Lilypad-Tech/module-phi2/assets/30084404/929da04b-549a-49d1-ae50-59b126c4906f)
+
+## Running on Lilypad
+
+To execute the module using Lilypad, follow these instructions:
+
+Module Configuration: Configure the module with the following command:
+
+```bash
+lilypad run --module-repo "http://github.com/noryev/clone-phi2" --module-hash ae7b9f267287045cb81b59bae767cfb92e43c7d7 --module-path ./lilypad_module.json.tmpl -i Prompt="what is the acceleration of gravity on earth?"
+
+
+###Execution Result:
+After running the above command, you will receive the output. Below is a screenshot demonstrating this step:
+Running on Lilypad
+
+![Screenshot from 2024-01-08 23-33-50](https://github.com/Lilypad-Tech/module-phi2/assets/30084404/d94bdc1e-12c5-4d94-b37e-db5f2006a26e)
