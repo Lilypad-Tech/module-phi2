@@ -24,15 +24,13 @@ You can use your own prompt of course
 
 To execute the module using Lilypad, follow these instructions:
 
-6. **Module Configuration**: Configure the module with the following command:
+### Module Configuration**: Configure the module with the following command:
 
 ```bash
 lilypad run --module-repo "http://github.com/noryev/clone-phi2" --module-hash ae7b9f267287045cb81b59bae767cfb92e43c7d7 --module-path ./lilypad_module.json.tmpl -i Prompt="what is the acceleration of gravity on earth?"
 
-`
 
-
-7. **Execution Result**:
+### Execution Result:
 After running the above command, you will receive the output. Below is a screenshot demonstrating this step:
 Running on Lilypad
 
