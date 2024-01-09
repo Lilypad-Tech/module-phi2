@@ -26,13 +26,16 @@ To execute the module using Lilypad, follow these instructions:
 
 ### Module Configuration**: Configure the module with the following command:
 
+### Execution Result:
+
+After running the below command, you will receive the output. Below is a screenshot demonstrating this step:
+Running on Lilypad
+
+![Screenshot from 2024-01-08 23-33-50](https://github.com/Lilypad-Tech/module-phi2/assets/30084404/969194ce-0680-4b7d-a8cb-7f71b7954c00)
+
 ```bash
 lilypad run --module-repo "http://github.com/noryev/clone-phi2" --module-hash ae7b9f267287045cb81b59bae767cfb92e43c7d7 --module-path ./lilypad_module.json.tmpl -i Prompt="what is the acceleration of gravity on earth?"
 
 
-### Execution Result:
-After running the above command, you will receive the output. Below is a screenshot demonstrating this step:
-Running on Lilypad
 
 
-![Screenshot from 2024-01-08 23-33-50](https://github.com/Lilypad-Tech/module-phi2/assets/30084404/969194ce-0680-4b7d-a8cb-7f71b7954c00)
