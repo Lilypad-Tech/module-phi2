@@ -24,7 +24,7 @@ You can use your own prompt of course
 
 To execute the module using Lilypad, follow these instructions:
 
-### Module Configuration**: Configure the module with the following command:
+6. **Module Configuration**: Configure the module with the following command:
 
 ### Execution Result:
 
