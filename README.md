@@ -1,6 +1,6 @@
 # Phi-2 Module: A Guide for Lilypad Integration
 
-This documentation provides detailed instructions on how to integrate and use the Phi-2 module with Lilypad technology. The Phi-2 module, as an example, can be explored further on [Hugging Face](https://huggingface/amgadhasan/phi-2).
+This documentation provides detailed instructions on how to integrate and use the Phi-2 module with Lilypad technology. The Phi-2 module, as an example, can be explored further on [Hugging Face](https://huggingface.co/amgadhasan/phi-2).
 
 A practical demonstration of this module is available in a demo video on [YouTube](https://x.com/Lilypad_Tech/status/1737685808860274820?s=20).
 
