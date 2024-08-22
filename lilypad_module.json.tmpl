@@ -16,7 +16,7 @@
       },
       "Docker": {
         "Entrypoint": ["bash", "-c", "python3 /usr/src/app/loadmodel.py 2>/dev/null"],
-        "Image": "hub.docker.com/noryev/phi-2:latest",
+        "Image": "noryev/phi-2:latest"
         "EnvironmentVariables": [
           "MODEL_PATH=/usr/src/app/model",
           "ANOTHER_ENV_VAR=value",
